@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    }
+
+body {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.wobblyText {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1;
+    font-weight: regular;
+    margin: 0;
+    letter-spacing: +.1em;
+    font-size: 2em;
+    -webkit-font-smoothing: none;
+}
+
+.wobblyText span {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: all 8s;
+    transition-timing-function: linear;
+}
+
+.title {
+    display: fixed;
+    width: 300px;
+    margin: 40px 30px 10px 100px;
+    padding: 1px;
+    font-size: 2.2em;
+    letter-spacing: +.4em;
+    color: #000000;
+    font-weight: 300;
+}
+
+.year {
+    margin-left: 80px;
+    font-weight: 500;
+    font-size: 1.6em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 1px;
+    color: #707070;
+}
+
+.works{
+    margin: 0px 0px 0px 90px;
+    font-size: 1em;
+    font-weight: 300;
+    cursor: pointer;
+    color: #707070;
+    
+}
+
+  button{
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+  }
+
+img {
+    position: fixed;
+    object-fit: contain;
+    width: 700px;
+    height: 700px;
+    top: 40px;
+    right: 40px;
+   bottom: 20px;
+   
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.link {
+    margin: 10px 0 50px 100px;
+    padding: 40px;
+    font-size: 1em;
+}
+
+.img_popup11 {
+    margin-top: 600px;
+    padding: 1px;
+}
+
+/*not using in this version
+
+.collapsible {
+    display: block;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.3em;
+    margin-left: 40px;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    font-size: 14px;
+    font-style: none;
+    font-weight: normal;
+    color: gray;
+  }
+
+  */
