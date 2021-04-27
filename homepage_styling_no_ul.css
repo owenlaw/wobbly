@@ -73,12 +73,29 @@ button {
   top: 40px;
   right: 2.5vw;
   bottom: 20px;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
 }
 
 .img_popup::-webkit-scrollbar {
   display: none;
+}
+
+.carousel {
+  visibility: hidden;
+  overflow: scroll;
+  text-align: center;
+  scroll-padding-bottom: 40px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.sub_image {
+  position: relative;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.subtitle {
+  margin-bottom: 40px;
 }
 
 .rotate {
